@@ -43,12 +43,12 @@ const DashboardInput = () => {
     "A vintage coffee shop with warm lighting and books",
     "A space station orbiting around a distant planet",
     "A Japanese garden with koi pond and cherry blossoms",
-    "A medieval castle on a hill during golden hour"
+    "A medieval castle on a hill during golden hour",
   ];
 
   const handleAutoType = () => {
     const randomPrompt = promptExamples[Math.floor(Math.random() * promptExamples.length)];
-    setPrompt('');
+    setPrompt("A medieval castle on a hill during golden hour");
     
     // Typewriter effect
     let i = 0;

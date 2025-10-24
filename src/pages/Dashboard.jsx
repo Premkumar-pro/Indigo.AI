@@ -8,10 +8,11 @@ import ContactUs from '../components/dashboard/pages/ContactUs';
 import TrainDocs from '../components/dashboard/pages/TrainDocs';
 import Docs from '../components/dashboard/pages/Docs';
 import Gallery from '../components/dashboard/pages/Gallery';
+import ImageEditor from '../components/dashboard/pages/ImageEditor';
 
 // Placeholder components for other pages
 // const TrainDocs = () => <div>Train Docs Page - Coming Soon</div>;
-const ImageEditor = () => <div>Image Editor Page - Coming Soon</div>;
+// const ImageEditor = () => <div>Image Editor Page - Coming Soon</div>;
 // const Gallery = () => <div>Gallery Page - Coming Soon</div>;
 // const ContactUs = () => <div>Contact Us Page - Coming Soon</div>;
 // const Docs = () => <div>Docs Page - Coming Soon</div>;
