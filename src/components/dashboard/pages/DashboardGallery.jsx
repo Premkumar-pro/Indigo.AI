@@ -15,6 +15,21 @@ import anime2 from "../../../assets/gallary/anime/anime2.webp";
 import anime3 from "../../../assets/gallary/anime/anime3.webp";
 import anime4 from "../../../assets/gallary/anime/anime4.webp";
 import anime5 from "../../../assets/gallary/anime/anime5.webp";
+import anime6 from "../../../assets/gallary/anime/anime6.webp";
+import anime7 from "../../../assets/gallary/anime/anime7.webp";
+import anime8 from "../../../assets/gallary/anime/anime8.webp";
+import anime9 from "../../../assets/gallary/anime/anime9.webp";
+import anime10 from "../../../assets/gallary/anime/anime10.webp";
+import anime11 from "../../../assets/gallary/anime/anime11.webp";
+import anime12 from "../../../assets/gallary/anime/anime12.webp";
+import anime13 from "../../../assets/gallary/anime/anime13.webp";
+import anime14 from "../../../assets/gallary/anime/anime14.webp";
+import anime15 from "../../../assets/gallary/anime/anime15.webp";
+import anime16 from "../../../assets/gallary/anime/anime16.webp";
+import anime17 from "../../../assets/gallary/anime/anime17.webp";
+import anime18 from "../../../assets/gallary/anime/anime18.webp";
+import anime19 from "../../../assets/gallary/anime/anime19.webp";
+import anime20 from "../../../assets/gallary/anime/anime20.webp";
 
 import artistic1 from "../../../assets/gallary/artistic/artistic1.webp";
 import artistic2 from "../../../assets/gallary/artistic/artistic2.webp";
@@ -47,6 +62,21 @@ const DashboardGallery = () => {
     { id: 3, src: anime3, category: 'Anime', prompt: 'Cyberpunk anime cityscape at night' },
     { id: 4, src: anime4, category: 'Anime', prompt: 'Fantasy anime warrior in forest' },
     { id: 5, src: anime5, category: 'Anime', prompt: 'School anime scene with cherry blossoms' },
+    { id: 6, src: anime6, category: 'Anime', prompt: 'Cute anime character with colorful hair'},
+    { id: 7, src: anime7, category: 'Anime', prompt: 'Magical girl transformation sequence'},
+    { id: 8, src: anime8, category: 'Anime', prompt: 'Cyberpunk anime cityscape at night' },
+    { id: 9, src: anime9, category: 'Anime', prompt: 'Fantasy anime warrior in forest'},
+    { id: 10, src: anime10, category: 'Anime', prompt: 'School anime scene with cherry blossoms' },
+    { id: 11, src: anime11, category: 'Anime', prompt: 'Cute anime character with colorful hair'},
+    { id: 12, src: anime12, category: 'Anime', prompt: 'Magical girl transformation sequence'},
+    { id: 13, src: anime13, category: 'Anime', prompt: 'Cyberpunk anime cityscape at night'},
+    { id: 14, src: anime14, category: 'Anime', prompt: 'Fantasy anime warrior in forest'},
+    { id: 15, src: anime15, category: 'Anime', prompt: 'School anime scene with cherry blossoms'},
+    { id: 16, src: anime16, category: 'Anime', prompt: 'Cute anime character with colorful hair'},
+    { id: 17, src: anime17, category: 'Anime', prompt: 'Magical girl transformation sequence'},
+    { id: 18, src: anime18, category: 'Anime', prompt: 'Cyberpunk anime cityscape at night'},
+    { id: 19, src: anime19, category: 'Anime', prompt: 'Fantasy anime warrior in forest'},
+    { id: 20, src: anime20, category: 'Anime', prompt: 'School anime scene with cherry blossoms'},
 
     // Artistic Images
     { id: 6, src: artistic1, category: 'Artistic', prompt: 'Abstract watercolor painting with vibrant colors' },

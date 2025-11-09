@@ -1,50 +1,41 @@
 import React from 'react'
 import { Box, Container, Typography,} from '@mui/material'
+import anime1 from '../assets/gallary/anime/anime1.webp';
+import anime2 from '../assets/gallary/anime/anime2.webp';
+import anime3 from '../assets/gallary/anime/anime3.webp';
+import anime4 from '../assets/gallary/anime/anime1.webp';
+import anime19 from '../assets/gallary/anime/anime2.webp';
+import anime7 from '../assets/gallary/anime/anime3.webp';
+import anime10 from '../assets/gallary/anime/anime3.webp';
+
+// Logo Images
+import artistic1 from '../assets/gallary/artistic/artistic1.webp';
+import artistic2 from '../assets/gallary/artistic/artistic2.webp';
+import artistic3 from '../assets/gallary/artistic/artistic3.webp';
+import artistic4 from '../assets/gallary/artistic/artistic4.webp';
+import artistic5 from '../assets/gallary/artistic/artistic5.webp';
+import artistic6 from '../assets/gallary/artistic/artistic6.webp';
+import artistic7 from '../assets/gallary/artistic/artistic7.webp';
+
 
 const ExamplesGallery = () => {
+  const imageRows = [
+  {
+    direction: 'left',
+    images: [anime1, anime2, anime3,anime4, anime19, anime7,anime10] // Add all your anime images here
+  },
+  {
+    direction: 'right',
+    images: [artistic1,artistic2,artistic3,artistic4,artistic5,artistic6,artistic7,] // Add all your logo images here
+  },
+  // {
+  //   direction: 'left',
+  //   images: [logo1, logo2, logo3] // Add all your logo images here
+  // }
+];
   
 
-  const imageRows = [
-    {
-      direction: 'left',
-      images: [
-        'https://images.unsplash.com/photo-1541961017774-22349e4a1262?ixlib=rb-4.0.3&auto=format&fit=crop&w=300&q=80',
-        'https://images.unsplash.com/photo-1550745165-9bc0b252726f?ixlib=rb-4.0.3&auto=format&fit=crop&w=300&q=80',
-        'https://images.unsplash.com/photo-1506905925346-21bda4d32df4?ixlib=rb-4.0.3&auto=format&fit=crop&w=300&q=80',
-        'https://images.unsplash.com/photo-1578662996442-48f60103fc96?ixlib=rb-4.0.3&auto=format&fit=crop&w=300&q=80',
-        'https://images.unsplash.com/photo-1518709268805-4e9042af2176?ixlib=rb-4.0.3&auto=format&fit=crop&w=300&q=80',
-        'https://images.unsplash.com/photo-1550684376-efcbd6e3f031?ixlib=rb-4.0.3&auto=format&fit=crop&w=300&q=80',
-        'https://images.unsplash.com/photo-1518831959646-742c3a14ebf7?ixlib=rb-4.0.3&auto=format&fit=crop&w=300&q=80',
-        'https://images.unsplash.com/photo-1543857778-c4a1a569eafe?ixlib=rb-4.0.3&auto=format&fit=crop&w=300&q=80'
-      ]
-    },
-    {
-      direction: 'right',
-      images: [
-        'https://images.unsplash.com/photo-1579546929662-711aa81148cf?ixlib=rb-4.0.3&auto=format&fit=crop&w=300&q=80',
-        'https://images.unsplash.com/photo-1558618047-3c8c76ca7d13?ixlib=rb-4.0.3&auto=format&fit=crop&w=300&q=80',
-        'https://images.unsplash.com/photo-1550684848-fac1c5b4e853?ixlib=rb-4.0.3&auto=format&fit=crop&w=300&q=80',
-        'https://images.unsplash.com/photo-1558591710-4b4a0ae27f17?ixlib=rb-4.0.3&auto=format&fit=crop&w=300&q=80',
-        'https://images.unsplash.com/photo-1550684376-efcbd6e3f031?ixlib=rb-4.0.3&auto=format&fit=crop&w=300&q=80',
-        'https://images.unsplash.com/photo-1543857778-c4a1a569eafe?ixlib=rb-4.0.3&auto=format&fit=crop&w=300&q=80',
-        'https://images.unsplash.com/photo-1518709268805-4e9042af2176?ixlib=rb-4.0.3&auto=format&fit=crop&w=300&q=80',
-        'https://images.unsplash.com/photo-1578662996442-48f60103fc96?ixlib=rb-4.0.3&auto=format&fit=crop&w=300&q=80'
-      ]
-    },
-    {
-      direction: 'left',
-      images: [
-        'https://images.unsplash.com/photo-1518831959646-742c3a14ebf7?ixlib=rb-4.0.3&auto=format&fit=crop&w=300&q=80',
-        'https://images.unsplash.com/photo-1506905925346-21bda4d32df4?ixlib=rb-4.0.3&auto=format&fit=crop&w=300&q=80',
-        'https://images.unsplash.com/photo-1550745165-9bc0b252726f?ixlib=rb-4.0.3&auto=format&fit=crop&w=300&q=80',
-        'https://images.unsplash.com/photo-1541961017774-22349e4a1262?ixlib=rb-4.0.3&auto=format&fit=crop&w=300&q=80',
-        'https://images.unsplash.com/photo-1558591710-4b4a0e0e4a17?ixlib=rb-4.0.3&auto=format&fit=crop&w=300&q=80',
-        'https://images.unsplash.com/photo-1558618047-3c8c76ca7d13?ixlib=rb-4.0.3&auto=format&fit=crop&w=300&q=80',
-        'https://images.unsplash.com/photo-1579546929662-711aa81148cf?ixlib=rb-4.0.3&auto=format&fit=crop&w=300&q=80',
-        'https://images.unsplash.com/photo-1550684848-fac1c5b4e853?ixlib=rb-4.0.3&auto=format&fit=crop&w=300&q=80'
-      ]
-    }
-  ]
+  
 
   return (
     <Box
